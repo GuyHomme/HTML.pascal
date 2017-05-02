@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style_site.css">
+		<link href="https://fonts.googleapis.com/css?family=Cinzel|Alfa+Slab+One|" rel="stylesheet"> 
+		<link rel="stylesheet" media="screen and (max-width: 900px)" href="smallscreen.css" type="text/css" />
+	</head>
+	
+	<body>
+		<header>
+			<h1>SITE QUERIE</h1>
+		</header>
+		<nav>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="info.html">Informations</a></li>
+		</nav>
+		<section>
+					<article>
+						<form method="POST/GET" action="#" >
+									<fieldset>
+										<label for="nom">Nom</label> : <input type="text"  placeholder=" Nom " maxlength="20" title="Entrez votre nom" required autofocus/>
+										</br>
+										<label for="prenom">Prénom</label> : <input type="text"  placeholder=" Prénom "  size="30" maxlength="20" title="Entrez votre prénom" required/>
+										</br>
+										<label for="mail">E-mail</label> : <input type="email" size="30" placeholder=" exemple@hotmail.fr" title="Entrez votre e-mail" required>
+										</br>
+										<label for="age">Âge</label> : <input type="number" min="18" max="99" title="Entrez votre âge" required/>
+										</br>
+										<label for="boite">Entreprise</label> : <input type="text" placeholder=" Entreprise " title="Entrez le nom de votre entreprise" required/>
+										</br>
+										<label for="Pays">Pays</label> : 
+											<select id="pays">
+												<optgroup label="Europe">
+													<option value="France">France</option>
+													<option value="Belgique">Belgique</option>
+													<option value="Suisse">Suisse</option>
+												<optgroup label="Amérique">
+													<option value="Canada">Canada</option>
+												<optgroup label="Autre">
+													<option value="Autre">Autre</option>
+											</select>
+										</br>
+										<label for="objet">Objet</label> : <input type="text" placeholder=" Objet de votre requête" size="30" title="Entrez l'objet de votre requête" required>
+										</br>
+										<br/>
+										<label for="requete">Requête</label> : <textarea id="requete"  title="Champ pour votre requête" required></textarea>
+										<br/>
+										<br/>
+										<input type="submit" value="Envoyer"/>
+										<input type="reset" value="Réinitialiser"/>
+											
+										</br>
+									</fieldset>
+									
+						</form>
+					</article>
+		</section>
+		
+		<footer>
+			<img src="Images/phoenix.png"></img>
+		</footer>
+	</body>
+</html>

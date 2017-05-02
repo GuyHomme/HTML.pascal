@@ -1,0 +1,69 @@
+@media screen and (max-width: 900px) {
+
+*{
+	font-size:10px;	
+	}
+h1 {
+	font-size:20px;
+  }
+  
+nav li{
+	margin:0 auto;
+	margin-top:30px;
+}
+  
+
+nav{
+	font-size:15px;
+	margin:0 auto;
+	height:80px;
+	background-size:100%;
+	font-weight:bold;
+}
+
+article{
+	max-width:300px;
+}
+
+article img{
+	width:90px;
+	height:60px;
+}
+
+form{
+	min-width:200px;
+}
+
+caption{
+	font-size:12px;
+}
+
+td, th, caption{
+	padding:1px;
+	border:1px #Df3F3F solid;
+}
+
+td{
+	max-width:100px;
+}
+
+thead{
+	font-size:8px;
+}
+
+iframe{
+	height:60px;
+	width:90px;
+}
+
+footer{
+	min-height:80%;
+	background-position-y:100%;
+}
+
+
+
+footer img{
+	width:20%;
+	height:20%;
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px) {
+	
+	article{
+		max-width:80%;
+	}
+	
+	td{
+	max-width:20%;
+}
+	article img{
+	width:90px;
+	height:60px;
+}
+	
+}

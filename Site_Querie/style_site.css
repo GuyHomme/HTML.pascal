@@ -1,0 +1,174 @@
+ /*
+Theme Name: Theme site Entreprise
+Theme URI: ludus1B.com
+Author: Guillaume Alves
+Description: Theme css site web VAPV/Confrérie
+Version: 1.0
+License: Ludus1B
+License URI: Ludus1B.com
+Text Domain: ludus1B
+*/
+*{
+	font-weight:bold;
+	margin:0px;
+	padding:0px;    
+    font-family: 'Cinzel', serif;
+}
+
+body{
+	background:url("Images/BCG.jpg") center fixed no-repeat;
+	background-size:cover;
+}
+
+nav{
+	padding:1%;
+	margin:0 auto;
+	margin-top: 5%;
+	margin-bottom:1%;
+	display:flex;
+	width:100%;
+	min-height:40px;
+	justify-content:center;
+	background-size:40%;
+	background-image:url("Images/bannière.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	font-weight:bold;
+}
+
+nav li a{
+	color:grey;
+	text-decoration:none;
+}
+
+section{
+	color:white;
+	margin-top:10%;
+	background-color:rgba(0,0,0,0.7);
+	padding:2%;
+	min-height:500px;
+}
+
+header{
+	margin:0 auto;
+	margin-top:1%;
+	border:5px solid;
+	width:50%;
+}
+
+article{
+	max-width:1000px;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+article img{
+	width:280px;
+	height:180px;
+}
+
+form{
+	display:flex;
+	justify-content:center;
+	padding:10px;
+	min-width:600px;
+	color:white;
+}
+
+fieldset{
+	padding:0 20px 20px 20px;
+	margin-bottom:10px;
+	border:5px double #Df3F3F;
+}
+
+input,textarea,select,option{
+	padding:3px;
+	border:1px solid #F5C5C5;
+	width:200px;
+	box-shadow:1px 1px 2px #Df3F3F0 inset;
+	display:block;
+	margin-top:15px;
+	margin-left:15px;
+	background-color:#white;
+}
+
+
+input[type=submit], input[type=reset] {
+	color:grey;
+	display:inline;
+	width: 100px;
+	margin-left:5px;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+}
+
+h1{
+	color:black;
+	text-align:center;
+	font-family: 'Quattrocento', serif;
+	font-size:3em;
+	text-shadow:2px 2px grey;
+}
+
+nav li{
+	text-decoration:none;
+	display:inline;
+	margin:2%;
+}
+
+.titre{
+	color:white;
+	text-shadow:1px 1px black;
+	font-size:15px;
+	font-weight:bold;
+}
+
+a:hover{
+	color:red;
+}
+caption{
+	font-weight:bold;
+	font-size:30px;
+}
+
+table{
+	margin:0 auto;
+	border-collapse:collapse;
+}
+td, th, caption{
+	padding:10px;
+	border:4px #Df3F3F solid;
+}
+
+td{
+	max-width:500px;
+}
+
+thead{
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+}
+
+iframe{
+	height:180px;
+	width:280px;
+}
+
+footer{
+	background:url("Images/footer.png");
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position-y:100%;
+}
+
+p{
+	display:block;
+	margin:0 auto;
+	max-width:1000px;
+	overflow:auto;
+}
+
+
+
+
